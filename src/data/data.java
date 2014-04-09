@@ -1,7 +1,6 @@
 package data;
 
-import tools.KeyboardReader;
-import tools.MergeSort;
+import tools.*;
 import java.util.*;
 
 public class data {

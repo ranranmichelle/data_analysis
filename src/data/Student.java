@@ -5,26 +5,26 @@ import java.util.*;
 
 //Definite the properties of the students
 
-public class student{
+public class Student{
 
 	private int student_ID;
-	private HashSet<session> sessionSet;
+	private HashSet<Session> sessionSet;
    
 	//basic information of students	
-	public student(int s_ID){
+	public Student(int s_ID){
 		this.student_ID = s_ID;
-		this.sessionSet = new HashSet<session>();
+		this.sessionSet = new HashSet<Session>();
 	}
 	
 	public int get_sID () {
 		return this.student_ID;
 	}
 	
-	public HashSet<session> get_sessions(){
+	public HashSet<Session> get_sessions(){
 		return this.sessionSet;
 	}
 	
-	public void add_session (session ses) {
+	public void add_session (Session ses) {
 		this.sessionSet.add(ses);
 	}
 
